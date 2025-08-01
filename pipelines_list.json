@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "name": "create-update-secret-manager-pipeline",
+    "repo": "https://github.com/dkojo/new-monolithic.git",
+    "branch": "master",
+    "jenkinsfile": "secrets-manager/Jenkinsfile"
+  }
+]
