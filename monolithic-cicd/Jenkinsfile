@@ -5,15 +5,15 @@ pipeline {
     }
     parameters {
         string(name: 'GITHUB_CREDENTIAL', defaultValue: 'github_creds', description: 'Github access credentials id')
-        string(name: 'GITHUB_REPO_URL', defaultValue: 'https://github.com/itgenius-devops/itgenius-springboot-app-monolithic-cicd.git', description: 'Github repository URL')
-        string(name: 'GITHUB_BRANCH', defaultValue: 'main', description: 'Github branch for your build')
+        string(name: 'GITHUB_REPO_URL', defaultValue: 'https://github.com/dkojo/new-monolithic.git', description: 'Github repository URL')
+        string(name: 'GITHUB_BRANCH', defaultValue: 'master', description: 'Github branch for your build')
         string(name: 'SONARQUBE_SERVER_NAME', defaultValue: 'sonarqube_server', description: 'Name for your SonarQube server')
-        string(name: 'NEXUS_URL', defaultValue: '3.95.198.231:8081', description: 'Your Nexus URL')
+        string(name: 'NEXUS_URL', defaultValue: '3.91.68.117:8081', description: 'Your Nexus URL')
         string(name: 'NEXUS_CREDENTIAL', defaultValue: 'jenkins_nexus_creds', description: 'Your Nexus credentials')
         string(name: 'REMOTE_USER', defaultValue: 'ec2-user', description: 'Remote server username')
         string(name: 'MONOLITHIC_SERVER', defaultValue: 'monolithic_server', description: 'The monolithic server Jenkins will SSH into using Publish Over SSH.')
         string(name: 'DB_SECRET_ID', defaultValue: 'itgenius-db-secret', description: 'Secrets Manager ID for DB credentials')
-        string(name: 'DB_URL', defaultValue: 'jdbc:mysql://your-rds-endpoint:3306/itgeniusdb', description: 'JDBC Database URL')
+        string(name: 'DB_URL', defaultValue: 'jdbc:mysql://itgeniusdb.ckqhyhi2brqq.us-east-1.rds.amazonaws.com:3306/itgeniusdb', description: 'JDBC Database URL')
     }
 
     environment {
