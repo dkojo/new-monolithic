@@ -6,8 +6,8 @@ pipeline {
 
     parameters {
         string(name: 'GITHUB_CREDENTIAL', defaultValue: 'github_creds', description: 'Github access credentials id')
-        string(name: 'GITHUB_REPO_URL', defaultValue: 'https://github.com/itgenius-devops/itgenius-springboot-app-monolithic-cicd.git', description: 'Github repository url')
-        string(name: 'GITHUB_BRANCH', defaultValue: 'main', description: 'Github branch where the Terraform code is located')
+        string(name: 'GITHUB_REPO_URL', defaultValue: 'https://github.com/dkojo/new-monolithic.git', description: 'Github repository url')
+        string(name: 'GITHUB_BRANCH', defaultValue: 'master', description: 'Github branch where the Terraform code is located')
         choice(name: 'TERRAFORM_ACTION', choices: ['', 'apply', 'destroy'], description: 'Select Terraform action: Apply or Destroy')
     }
 

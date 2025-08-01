@@ -4,5 +4,13 @@
     "repo": "https://github.com/dkojo/new-monolithic.git",
     "branch": "master",
     "jenkinsfile": "secrets-manager/Jenkinsfile"
+  },
+
+
+  {
+    "name": "infrastructure-provisioning-terraform-pipeline",
+    "repo": "https://github.com/dkojo/new-monolithic.git",
+    "branch": "master",
+    "jenkinsfile": "terraform/Jenkinsfile"
   }
 ]
