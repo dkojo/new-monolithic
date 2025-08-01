@@ -6,8 +6,8 @@ pipeline {
 
     parameters {
         string(name: 'GITHUB_CREDENTIAL', defaultValue: 'github_creds', description: 'Github access credentials id')
-        string(name: 'GITHUB_REPO_URL', defaultValue: 'https://github.com/itgenius-devops/itgenius-springboot-app-monolithic-cicd.git', description: 'Github repository url')
-        string(name: 'GITHUB_BRANCH', defaultValue: 'main', description: 'Github branch for your build')
+        string(name: 'GITHUB_REPO_URL', defaultValue: 'https://github.com/dkojo/new-monolithic.git', description: 'Github repository url')
+        string(name: 'GITHUB_BRANCH', defaultValue: 'master', description: 'Github branch for your build')
         string(name: 'SSH_SERVER', defaultValue: 'ansible_server', description: 'The server that Jenkins will SSH into Using Publish Over SSH.')
     }
 
