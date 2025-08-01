@@ -19,5 +19,12 @@
     "repo": "https://github.com/dkojo/new-monolithic.git",
     "branch": "master",
     "jenkinsfile": "ansible/Jenkinsfile"
+  },
+
+  {
+    "name": "continuous-integration-continuous-deployment-pipeline ",
+    "repo": "https://github.com/dkojo/new-monolithic.git",
+    "branch": "master",
+    "jenkinsfile": "monolithic-cicd/Jenkinsfile"
   }
 ]
