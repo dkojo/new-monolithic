@@ -26,5 +26,12 @@
     "repo": "https://github.com/dkojo/new-monolithic.git",
     "branch": "master",
     "jenkinsfile": "monolithic-cicd/Jenkinsfile"
+  },
+
+  {
+    "name": "infrastructure-provisioning-terraform-pipeline-ecs ",
+    "repo": "https://github.com/dkojo/new-microservices-ecs.git",
+    "branch": "main",
+    "jenkinsfile": "terraform/Jenkinsfile"
   }
 ]
